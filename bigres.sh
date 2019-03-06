@@ -25,7 +25,6 @@ do
 	read PARTITION
 	if [ "$PARTITION" == "" ]
 	then
-		echo "default"
 		$PARTITION = $PARTITION_DEFAULT
 	fi
 
